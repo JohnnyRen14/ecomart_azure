@@ -23,14 +23,14 @@ jobs:
         with:
           inlineScript: |
             az group create \
-              --name rg-ecomart-prototype \
+              --name ecomart-azure \
               --location northeurope \
-              --tags Environment=prototype CostCentre=IT-CLOUD Project=ecomart-migration Owner=lrenyee@novatech.com
+              --tags Environment=prototype CostCentre=IT-CLOUD Project=ecomart-migration Owner=g00425049@atu.ie
 
       - name: Deploy Bicep template
         uses: azure/arm-deploy@v1
         with:
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-          resourceGroupName: rg-ecomart-prototype
+          resourceGroupName: ecomart-azure
           template: ./main.bicep
           failOnStdErr: false
