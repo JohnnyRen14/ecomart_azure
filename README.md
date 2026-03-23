@@ -41,19 +41,6 @@ The following resources are deployed:
 
 ---
 
-## Cost Optimisation
-
-All resources are tagged with mandatory labels for cost visibility:
-
-| Tag | Value |
-|---|---|
-| Environment | prototype |
-| CostCentre | IT-CLOUD |
-| Project | ecomart-migration |
-| Owner | lrenyee@novatech.com |
-
----
-
 ## Module
 
 ATU — Cloud Infrastructure & Enterprise Services (INFO08018)  
