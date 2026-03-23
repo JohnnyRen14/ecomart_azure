@@ -62,4 +62,3 @@ All resources are tagged with mandatory labels for cost visibility:
 ## Module
 
 ATU — Cloud Infrastructure & Enterprise Services (INFO08018)  
-Assignment 2 — Cloud Deployment & Cost Management (25%)
