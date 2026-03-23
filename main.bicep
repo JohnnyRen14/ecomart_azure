@@ -16,10 +16,10 @@ param adminPassword string
 
 // ── Tags ─────────────────────────────────────────────────────
 var tags = {
-  Environment: environment
+  Environment: prototype
   CostCentre: 'IT-CLOUD'
   Project: 'ecomart-migration'
-  Owner: 'lrenyee@novatech.com'
+  Owner: 'g00425049@atu.ie'
 }
 
 // ── Virtual Network ───────────────────────────────────────────
